@@ -7,5 +7,4 @@ output: github_document
 
 - blue
 - green
-- pink
 - purple
