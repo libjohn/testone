@@ -78,8 +78,8 @@ starwars %>%
     fct_explicit_na(fct_other(
       fct_infreq(hair_color), drop = c("none", "unknown")
     ), na_level = "NA")
-  ))) +
-  geom_bar(data = auburn, aes(hair_color), fill = "brown", color = "white") +
+  )), fill = "grey50") +
+  geom_bar(data = auburn, aes(hair_color), fill = "#722626") +
   coord_flip() +
   labs(y = "", x = "Hair Color") 
   #geom_bar(data = auburn, aes(hair_color), color = "red") +
