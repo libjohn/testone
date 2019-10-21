@@ -1,0 +1,19 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+starwars %>% 
+  separate_rows(hair_color, sep = ",") %>% 
+  ggplot() +
+  geom_bar(aes(fct_rev(fct_infreq(hair_color)))) +
+  coord_flip() +
+  labs(y="", x= "Hair Color")
+```
+
