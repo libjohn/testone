@@ -9,11 +9,57 @@ library(tidyverse)
 ```
 
 ```{r}
-starwars %>% 
-  separate_rows(hair_color, sep = ",") %>% 
+starwars %>%
+  separate_rows(hair_color, sep = ",") %>%
   ggplot() +
-  geom_bar(aes(fct_rev(fct_infreq(hair_color)))) +
+  geom_bar(aes(hair_color)) +
+  coord_flip()
+
+starwars %>%
+  separate_rows(hair_color, sep = ",") %>%
+  ggplot() +
+  geom_bar(aes(fct_rev(fct_infreq(
+    fct_explicit_na(fct_other(hair_color, drop = c("none", "unknown")), na_level = "NA")
+  )))) +
   coord_flip() +
-  labs(y="", x= "Hair Color")
+  labs(y = "", x = "Hair Color")
+
+# geom_bar(aes(fct_rev(fct_infreq(hair_color)))) +
+# fct_explicit_na(hair_color, na_level = "NA")
+
+starwars %>%
+  separate_rows(hair_color, sep = ",") %>%
+  ggplot() +
+  geom_bar(aes(fct_rev(
+    fct_explicit_na(fct_other(
+      fct_infreq(hair_color), drop = c("none", "unknown")
+    ), na_level = "NA")
+  ))) +
+  coord_flip() +
+  labs(y = "", x = "Hair Color")
+
+starwars %>%
+  separate_rows(hair_color, sep = ",") %>%
+  drop_na(hair_color) %>% 
+  ggplot() +
+  geom_bar(aes(fct_rev(
+    fct_explicit_na(fct_other(
+      fct_infreq(hair_color), drop = c("none", "unknown")
+    ), na_level = "NA")
+  ))) +
+  coord_flip() +
+  labs(y = "", x = "Hair Color")
+
+starwars %>%
+  separate_rows(hair_color, sep = ",") %>%
+  ggplot() +
+  geom_bar(aes(fct_rev(
+    fct_explicit_na(
+      fct_infreq(hair_color)
+    , na_level = "NA")
+  ))) +
+  coord_flip() +
+  labs(y = "", x = "Hair Color")
+
 ```
 
