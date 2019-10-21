@@ -61,5 +61,28 @@ starwars %>%
   coord_flip() +
   labs(y = "", x = "Hair Color")
 
+
+auburn <- starwars %>% 
+  filter(hair_color == "auburn")
+
+
+
+
+```
+
+```{r}
+starwars %>%
+  separate_rows(hair_color, sep = ",") %>%
+  ggplot() +
+  geom_bar(aes(fct_rev(
+    fct_explicit_na(fct_other(
+      fct_infreq(hair_color), drop = c("none", "unknown")
+    ), na_level = "NA")
+  ))) +
+  geom_bar(data = auburn, aes(hair_color), fill = "brown", color = "white") +
+  coord_flip() +
+  labs(y = "", x = "Hair Color") 
+  #geom_bar(data = auburn, aes(hair_color), color = "red") +
+  
 ```
 
