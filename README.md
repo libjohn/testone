@@ -16,3 +16,7 @@ This is my first Git repository. I'm going to push this file to GitHub via RStud
 - pride and predjudice
 - olive kitteridge
 - the power
+
+## Images
+
+![](barplot_test_delme_files/figure-gfm/unnamed-chunk-4-1.png)
