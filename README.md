@@ -4,20 +4,20 @@ Demonstrate a git repo with GitHub using [Alice Bartlett's](https://alicebartlet
 
 ## Name
 
-Master alice munro
+Anton Ghigurh
 
-## Using HTTP. 
+## Purpose
+This is a demo git repository. Let's push this project/folder/repository to GitHub remote via RStudio. (Hello World.)
 
-Let's see how far this goes. no go with the http
+## HTTP Ideas
+
+Let's see how far this goes. 
 
 testing part2 of git workshop
 
-## Purpose
-This is my first Git repository. I'm going to push this file to GitHub via RStudio. Hello World.
-
 ## Books
 
-- pride and predjudice
+- pride and prejudice
 - olive kitteridge
 - the power
 
