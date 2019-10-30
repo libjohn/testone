@@ -19,4 +19,4 @@ This is my first Git repository. I'm going to push this file to GitHub via RStud
 
 ## Images
 
-![](barplot_test_delme_files/figure-gfm/unnamed-chunk-4-1.png)
+![](barplot_test_delme_files/figure-gfm/unnamed-chunk-4-1.png "barplot of starwars hair color")
