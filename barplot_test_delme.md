@@ -1,23 +1,21 @@
----
-title: "R Notebook"
-output:
-  github_document: default
-  html_notebook: default
-  
----
+R Notebook
+================
 
-
-```{r message=FALSE, warning=FALSE}
+``` r
 library(tidyverse)
 ```
 
-```{r}
+``` r
 starwars %>%
   separate_rows(hair_color, sep = ",") %>%
   ggplot() +
   geom_bar(aes(hair_color)) +
   coord_flip()
+```
 
+![](barplot_test_delme_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
+``` r
 starwars %>%
   separate_rows(hair_color, sep = ",") %>%
   ggplot() +
@@ -26,7 +24,11 @@ starwars %>%
   )))) +
   coord_flip() +
   labs(y = "", x = "Hair Color")
+```
 
+![](barplot_test_delme_files/figure-gfm/unnamed-chunk-2-2.png)<!-- -->
+
+``` r
 # geom_bar(aes(fct_rev(fct_infreq(hair_color)))) +
 # fct_explicit_na(hair_color, na_level = "NA")
 
@@ -40,7 +42,11 @@ starwars %>%
   ))) +
   coord_flip() +
   labs(y = "", x = "Hair Color")
+```
 
+![](barplot_test_delme_files/figure-gfm/unnamed-chunk-2-3.png)<!-- -->
+
+``` r
 starwars %>%
   separate_rows(hair_color, sep = ",") %>%
   drop_na(hair_color) %>% 
@@ -52,7 +58,11 @@ starwars %>%
   ))) +
   coord_flip() +
   labs(y = "", x = "Hair Color")
+```
 
+![](barplot_test_delme_files/figure-gfm/unnamed-chunk-2-4.png)<!-- -->
+
+``` r
 starwars %>%
   separate_rows(hair_color, sep = ",") %>%
   ggplot() +
@@ -63,17 +73,16 @@ starwars %>%
   ))) +
   coord_flip() +
   labs(y = "", x = "Hair Color")
-
-
-auburn <- starwars %>% 
-  filter(hair_color == "auburn")
-
-
-
-
 ```
 
-```{r}
+![](barplot_test_delme_files/figure-gfm/unnamed-chunk-2-5.png)<!-- -->
+
+``` r
+auburn <- starwars %>% 
+  filter(hair_color == "auburn")
+```
+
+``` r
 starwars %>%
   separate_rows(hair_color, sep = ",") %>%
   ggplot() +
@@ -85,12 +94,15 @@ starwars %>%
   geom_bar(data = auburn, aes(hair_color), fill = "#722626") +
   coord_flip() +
   labs(y = "", x = "Hair Color") 
-  #geom_bar(data = auburn, aes(hair_color), color = "red") +
-  
 ```
 
+![](barplot_test_delme_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
-```{r}
+``` r
+  #geom_bar(data = auburn, aes(hair_color), color = "red") +
+```
+
+``` r
 starwars %>%
   separate_rows(hair_color, sep = ",") %>%
   ggplot() +
@@ -107,3 +119,4 @@ starwars %>%
        caption = "Source:  dplyr::starwars") 
 ```
 
+![](barplot_test_delme_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
