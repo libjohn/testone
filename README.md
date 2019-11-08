@@ -21,6 +21,10 @@ testing part2 of git workshop
 - olive kitteridge
 - the power
 
+## Changes for John Poulsen's lab
+
+I thought John's lab would like this document
+
 ## Images
 
 ![](barplot_test_delme_files/figure-gfm/unnamed-chunk-4-1.png "barplot of starwars hair color")
