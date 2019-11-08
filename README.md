@@ -4,7 +4,7 @@ Demonstrate a git repo with GitHub using [Alice Bartlett's](https://alicebartlet
 
 ## Name
 
-Anton Ghigurh
+Anton Chigurh
 
 ## Purpose
 This is a demo git repository. Let's push this project/folder/repository to GitHub remote via RStudio. (Hello World.)
