@@ -1,12 +1,12 @@
 # README
 
-**Short URL**:  https://is.gd/gitshow
+**Short URL**:  https://is.gd/gitnow
 
 Demonstrate a git repo with GitHub using [Alice Bartlett's](https://alicebartlett.co.uk/) [Git for Humans slide deck](https://speakerdeck.com/alicebartlett/git-for-humans) 
 
 ## Practice
 
-[GitHub Hello World](https://guides.github.com/activities/hello-world/)
+[GitHub Hello World](https://guides.github.com/activities/hello-world/)  https://is.gd/gitshow
 
 ## Example Author Name
 
