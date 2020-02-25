@@ -1,6 +1,6 @@
 # README
 
-**Short URL**:  https://is.git/gitshow
+**Short URL**:  https://is.gd/gitshow
 
 Demonstrate a git repo with GitHub using [Alice Bartlett's](https://alicebartlett.co.uk/) [Git for Humans slide deck](https://speakerdeck.com/alicebartlett/git-for-humans) 
 
