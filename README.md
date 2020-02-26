@@ -38,3 +38,10 @@ I thought John's lab would like this document
 ## Configuration notes for RStudio/R
 
 https://rfun.library.duke.edu/git/
+
+## Resources
+
+- https://rfun.library.duke.edu/git  specific notes on using RStudio and git with remotes (i.e. social coding hubs like GitHub and GitLab)
+- [Happy Git](https://happygitwithr.com/) by Jenny Bryant
+- [usethis](https://usethis.r-lib.org/)  R package to facilitate git orchestration from within R
+- [More](https://git-rfun.library.duke.edu/resources.html)  - Not only for R users.
