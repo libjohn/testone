@@ -2,6 +2,16 @@
 
 **Short URL**:  https://is.gd/gitnow
 
+
+## Surveys
+
+- [Pre Workshop Survey](https://forms.gle/TxfTBWz42dKqe7zv5)
+- [Questions durhing the workshop](https://docs.google.com/document/d/1kCANQtqO124KjLC20yACfSqw9ocYcX5fMmeH7KrrZTA/edit?usp=sharing)
+- [Post Workshop Survey](https://forms.gle/uBCDDQ4YZEXVJg4t6)
+
+
+## Slides
+
 Demonstrate a git repo with GitHub using [Alice Bartlett's](https://alicebartlett.co.uk/) [Git for Humans slide deck](https://speakerdeck.com/alicebartlett/git-for-humans) 
 
 ## Practice
