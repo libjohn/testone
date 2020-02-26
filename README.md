@@ -41,7 +41,7 @@ https://rfun.library.duke.edu/git/
 
 ## Resources
 
-- [Happy Git](https://happygitwithr.com/) by Jenny Bryant
+- [Happy Git](https://happygitwithr.com/) by Jenny Bryan
 - [usethis](https://usethis.r-lib.org/)  R package to facilitate git orchestration from within R
 - [More](https://git-rfun.library.duke.edu/resources.html)  - Not only for R users.
 - https://rfun.library.duke.edu/git  specific notes on using RStudio and git with remotes (i.e. social coding hubs like GitHub and GitLab)
