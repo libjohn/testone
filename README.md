@@ -2,8 +2,10 @@
 
 **Short URL**:  https://is.gd/gitnow
 
+hi workshop class
 
-## Surveys
+
+## Please take the Surveys
 
 - [Pre Workshop Survey](https://forms.gle/TxfTBWz42dKqe7zv5)
 - [Questions during the workshop](https://docs.google.com/document/d/1kCANQtqO124KjLC20yACfSqw9ocYcX5fMmeH7KrrZTA/edit?usp=sharing)
