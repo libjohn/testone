@@ -41,7 +41,13 @@ https://rfun.library.duke.edu/git/
 
 ## Resources
 
-- https://rfun.library.duke.edu/git  specific notes on using RStudio and git with remotes (i.e. social coding hubs like GitHub and GitLab)
 - [Happy Git](https://happygitwithr.com/) by Jenny Bryant
 - [usethis](https://usethis.r-lib.org/)  R package to facilitate git orchestration from within R
 - [More](https://git-rfun.library.duke.edu/resources.html)  - Not only for R users.
+- https://rfun.library.duke.edu/git  specific notes on using RStudio and git with remotes (i.e. social coding hubs like GitHub and GitLab)
+
+## Recommended workshop introduction/curriculum
+
+1. Alice Bartlett's [Git for Humans slide deck](https://speakerdeck.com/alicebartlett/git-for-humans)
+1. GitHub's [Hello World guide](https://is.gd/gitshow)
+1. Configure your RStudio with git ([Rfun -- Git](https://rfun.library.duke.edu/git/) | [Happy Git book](https://happygitwithr.com/))
